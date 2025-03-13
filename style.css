@@ -546,6 +546,7 @@ h2 {
     .youtube {
         width: auto;
         height: auto;
+        justify-content: center;
     }
 }
 
