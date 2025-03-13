@@ -1,0 +1,640 @@
+HTML {
+    margin: 0;
+    padding: 0;
+}
+.NAV{
+   justify-content: space-between;
+    flex-grow: 1;
+}
+.NAV-LIST{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    align-items: center;
+    gap: 1rem;
+    justify-content: right;
+    
+
+}
+
+
+.nav-list li {
+    justify-content: space-around;
+    border-radius: 20px;  
+}
+
+.nav-list li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    transition: 3s;
+}
+
+.nav-list li a:hover {
+    background-color: tomato;  /* Warna saat hover */
+    border-radius: 20px;
+}
+
+
+.LI-NAVBAR {
+    margin-left: 15%;
+    color: rgb(48, 152, 143);
+}
+
+.B-NAVBAR{
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.ikon {
+    padding-left: 8%;
+    font-size: 25px;
+    display: none;
+}
+
+  
+@media only screen and (max-width: 800px) {
+   .NAV-LIST{
+    flex-wrap:wrap ;
+    display: none;
+   } 
+  .NAV-LIST{
+    flex-direction: column;
+  }
+  
+
+  .ikon {
+    text-align: center;
+    display: flex;
+  }
+        
+}
+
+.logo img {
+    width: 150px; /* Atur lebar logo sesuai kebutuhan */
+    height: auto;
+    margin-bottom: 20px; /* Jarak antara logo dan menu */
+    margin-right: 20%;
+}
+
+.img-content{
+    width: 20%;
+    height: 30%;
+    margin-left: 10%;
+}
+
+
+.FONT{
+    
+   position: relative;
+    color: black;
+    text-align: center;
+   
+}
+
+.panjang {
+    min-height: 300vh;
+}
+
+.img-content2 {
+    width: 50%;
+    height: 50%;
+    padding-left: 25%;
+    
+}
+
+.hero {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.font-nav{
+    text-align: center;
+    font-size: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align:center;
+    font-size: medium;
+
+}
+
+.BLU-NAV{
+    width: 30%;
+    height: 30%;
+}
+
+.img-content3 {
+    width: 20%;
+    right: 20%;
+    padding-right: 120%;
+    
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  
+  }
+  
+
+.FONT-WELCOME{
+    font-size: 200%;
+    text-align: center;
+    background-color: rgb(236, 116, 10);
+    padding: 5% 5%;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+
+
+    
+
+}
+
+.container {
+    display: grid; 
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+    grid-gap: 60px;
+   grid-template-columns: repeat(4, 1fr);
+   box-sizing: border-box;f
+   flex: 1 1 200px; /* item dapat tumbuh dan menyusut, dengan lebar minimum 200px */
+   margin: 10px;
+   padding-right: 10%;
+   
+}
+   
+.kk {
+    text-align: center;
+    padding-left: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-img {
+    width: 235px; 
+    height: 200px;
+    background-color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    padding-left: 5%;
+    flex: 1 1 200px; /* item dapat tumbuh dan menyusut, dengan lebar minimum 200px */
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10% ;
+    
+  }
+
+@media (max-width: 500px ) {
+    .container{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+@media (max-width: 1000px ) {
+    .container{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+
+@media screen and (max-width: 765px) {
+   .img-content2{
+    width: 80%;
+    height: 50%;
+   padding-left: 10%;
+   }
+    
+    
+}
+
+
+.img-content {
+    width: 20%;
+    right: 20%;
+    padding-right: 120%;
+    
+}
+
+
+
+
+.container-img3{
+    display: grid;
+    width: 10%;
+    height: 10%;
+    border-radius: 8px;
+    max-width: 100%;
+    
+   
+}
+
+.container-img4{
+    display: grid;
+    width: 5%;
+    height: 5%;
+   
+}
+
+.FONT-M{
+padding-bottom: 5%;
+width: auto;
+height: auto;
+}
+
+.text {
+    font-size: 16px;
+    color: #000000;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: #000000;
+    padding-left: 3%;
+    padding-right: 10%;
+}
+
+.item {
+    
+}
+
+.buton {
+    background-color: rgb(255, 64, 0);
+    color: white; /* Warna teks */
+    padding: 1% 1%;
+    text-align: center; /* Posisi teks di tengah */
+   text-decoration: none; /* Menghapus garis bawah */
+    display: inline-block; /* Membuat tombol tidak memanjang */
+    font-size: 16px; /* Ukuran font */
+    margin: 4px 2px; /* Margin sekitar tombol */
+    cursor: pointer; /* Mengubah kursor saat hover */
+    border: none; /* Menghapus border default */
+    border-radius: 8px; /* Menambahkan sudut melengkung */
+    justify-content: center;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    list-style: none;
+    
+}
+.body{
+margin: 0; /* Menghilangkan margin default */
+display: flex; /* Menggunakan flexbox untuk layout */
+justify-content: center; /* Memusatkan secara horizontal */
+align-items: center; /* Memusatkan secara vertikal */
+background-color: #f0f0f0; /* Warna latar belakang */
+
+}
+
+
+   
+
+.buttton {
+    font-size: large;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+.img-content9{
+    width: 35%;
+    height: 50%;
+    
+    padding-left: 34%;
+}   
+
+
+/* Desain untuk layar besar (desktop) */
+.container {
+    width: 80%;
+}
+
+/* Desain untuk layar kecil (ponsel) */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese:wght@400..700&family=Noto+Serif+Balinese&display=swap');
+  
+
+h2 {
+    font-size: 100%;
+    text-align: center;
+    background-color: rgb(236, 116, 10);
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 5%;
+    
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    transition: 2s ;
+    
+}
+  
+.images img{
+    width: 100%;
+}
+
+.wrapp {
+  width: 800px;
+  margin: auto;
+  border-radius: 2px;  
+  overflow: hidden;
+  position: relative;
+ 
+    
+}
+   
+#slide-1:target ~ .images {
+    margin-left: 0px;
+}
+
+#slide-2:target ~ .images {
+    margin-left: -100%;
+}
+
+#slide-3:target ~ .images {
+    margin-left: -200%;
+}
+ 
+
+ .navi a {
+    display:inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: darkgrey;
+    font-size: 0px;
+    border-radius: 50%;
+    transition: 3s ;
+
+ }
+
+ .navi a:hover{
+    background-color: #007bff;
+    
+ }
+
+
+ .navi{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    margin-top: -50px;
+ }
+
+
+ @media screen and (max-width: 800px) {
+    .wrapp { 
+       width: 80%; 
+    }
+ }
+
+
+.font-nav3{
+    text-align: center;
+    font-size: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align:center;
+    font-size: medium;
+    
+
+}
+
+.misi{
+    flex-direction: column;
+    gap: 40x;
+    
+}
+
+.misi2{
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    padding-right: 70%;
+}
+
+
+.img-content4 {
+    width: 20%;
+    right: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+    
+}
+
+.img-content5 {
+    width: 40%;
+    height: %;
+    right: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    
+}
+
+
+.image{
+  display: flex;
+  width: 100%;
+  transition: 3s;
+}
+.image img {
+    width: 100%;
+}
+ 
+.wrap{
+    width: 800px ;
+    margin: auto;
+    border-radius: 5%;
+    overflow: hidden;
+    position: relative;
+} 
+
+
+#slide-4:target ~ .image{
+    margin-left: 0px;
+}
+
+#slide-5:target ~ .image{
+    margin-left: -100%;
+}
+
+#slide-6:target ~ .image{
+    margin-left: -200%;
+}
+
+
+.navigation a {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-color: #7f7f7f;
+  font-size: 0px;
+  border-radius: 40%;
+  margin: 3px;
+}
+
+.navigation a:hover {
+    background-color: #007bff;
+}
+
+.navigation {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    margin-top: -50px;
+}
+ 
+@media screen and (max-width: 800px) {
+    .wrap { 
+       width: 80%; 
+    }
+ }
+
+ .misi2{
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    padding-right: 60%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+.youtube {
+  padding-left: 17%;
+    border-radius: 4px;
+    margin-bottom: 2%;
+}
+
+
+@media screen and (max-width: 765px){
+    .youtube {
+        width: auto;
+    }
+}
+
+
+.sosmed{
+    display: flex;
+    gap: 3px;
+    grid-template-columns: repeat(3,1);
+}
+
+.img-content8{
+    display: grid;
+    width: 30px;
+    height: 30px;
+    margin: 5%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.content2 {
+    display: flex;  /* Membuat layout dengan flexbox */
+    justify-content: space-between;  /* Membuat jarak antar elemen */
+    gap: 5px;  /* Menambahkan jarak antara teks dan gambar */
+    background-color: orange;
+
+}
+ 
+.teks{
+    flex: 1PX;
+   
+}
+.teks2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-gap: 30px;
+  }
+  
+  
+  img{
+      object-fit: cover;
+  }
+  
+  .grid > article {
+      box-shadow: 5px 5px 5px 0px black;
+      border-radius: 20px;
+      text-align: center;
+      background-color: whitesmoke;
+      
+  }
+  
+  .grid > article img{
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+  }
+  
+  
+  .grid > article:hover{
+      transform: scale(1.2);
+  }
+  
+  @media (max-width: 500px){
+      .grid{
+        grid-template-columns: repeat(1,1fr);
+      }
+  }
+
+  @media (max-width: 765px){
+    .img-content4 {
+        width: 300px;
+        padding-left: 20%;
+    }
+}
+
+  
+@media (max-width:765px){
+    .sosmed{
+        padding-left: 20%;
+        
+    }
+}
+   
